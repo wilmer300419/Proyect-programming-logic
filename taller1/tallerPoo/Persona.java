@@ -11,6 +11,8 @@ public class Persona {
         this.apellido = apellido;
     }
 
+    public Persona(){}
+
 
     public Long getCodIdentificacion() {
         return codIdentificacion;

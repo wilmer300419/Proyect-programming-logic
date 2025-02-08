@@ -11,6 +11,14 @@ public class Estudiante extends Persona {
         this.materiaEstudiante = materiaEstudiante;
     }
 
+    
+
+    public Estudiante(Long codIdentificacion, String nombre, String apellido) {
+        super(codIdentificacion, nombre, apellido);
+    }
+
+
+
     public String getCursoEstudiante() {
         return cursoEstudiante;
     }
