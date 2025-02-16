@@ -14,7 +14,7 @@ public class PromedioNotasEstudiante {
     }
 
     public PromedioNotasEstudiante(){}
-    
+
     public float getNota() {
         return nota;
     }
@@ -56,14 +56,13 @@ public class PromedioNotasEstudiante {
         int nNotas = readScanner.nextInt();
         
         for (int i = 0; i < nNotas; i++) {
-            System.out.println("Ingrese la nota #"+(nNotas+1));
+            System.out.println("Ingrese la nota #"+(i+1));
             this.setNota(readScanner.nextFloat());
             this.setAcumuladorNotaEstudiante(this.getAcumuladorNotaEstudiante()+this.nota);
         }
         
         this.setPromedioNotaEstudiante(this.getAcumuladorNotaEstudiante()/nNotas);
         System.out.println("El promedio de las notas de "+ materiaEst + " del estudiante " + nombreEst + " " + apellidoEst+" es: "+ this.getPromedioNotaEstudiante()+".");
-        readScanner.close();
 
     }
 
