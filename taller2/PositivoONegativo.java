@@ -1,6 +1,6 @@
 
 import java.util.Scanner;
-
+// Pedirle al usuario que ingrese un numero e indicar si es positivo o negativo
 
 
 public class PositivoONegativo{
