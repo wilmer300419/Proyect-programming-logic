@@ -18,7 +18,7 @@ public static String identificaNumeroPositivoONegativo(Double num){
         return "El número ingresado es 0.";
     }
     
-    return "Ingreso un dato diferente a un número";
+    return "Ingreso un dato erroneo";
 }
 
 // Metodo de ejecución del proyecto
