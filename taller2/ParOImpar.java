@@ -6,7 +6,7 @@ public class ParOImpar {
      // Variable de recoleccion de datos
     private static Scanner readScanner = new Scanner(System.in);
 
-    // Metodo de identificación de datos positivo o negativo
+    // Metodo de identificación de datos par o impar
 public static String identificaNumeroParOImpar(Double num){
     if(num%2 == 0){
         return "El número ingresado es par.";
