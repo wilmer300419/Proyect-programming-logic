@@ -1,6 +1,6 @@
 # Solicita al usuario que ingrese el número de horas de estacionamiento
-horas = int(input("Ingrese el número de horas de estacionamiento: "))
-tarifa = 0,0
+horas = float(input("Ingrese el número de horas de estacionamiento: "))
+tarifa = 0.0
 
 # Calcula la tarifa según las reglas establecidas
 if horas <= 2:
