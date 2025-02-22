@@ -4,7 +4,7 @@ num = float(input("Ingrese un número: "))
 # Verifica si el número es par o impar
 if num % 2 == 0:  # Si el residuo de la división entre 2 es 0, es un número par
     print("El número ingresado es par.")
-elif num % 2 != 0:  # Si el residuo de la división entre 2 no es 0, es impar
-    print("El número ingresado es impar.")
-else:  
+elif num < 0:  # Si el el numero es negativo es un dato erroneo
     print("Ingreso un dato erróneo")
+else: 
+    print("El número ingresado es impar.") 
