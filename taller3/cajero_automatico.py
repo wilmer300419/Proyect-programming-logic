@@ -182,4 +182,4 @@ while(True):
             break
         
         case _:
-            print("Ingreso un opcion invalida, vuelva a intentarlo.\n")
+            print("Ingreso una opcion invalida, vuelva a intentarlo.\n")
