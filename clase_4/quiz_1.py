@@ -30,8 +30,8 @@ while valor:
 
         if cont_clases_asistidas > num_clases_mes:
             print("El número de clases asistidas no puede ser mayor a las clases del mes.")
-        elif cont_clases_asistidas <=0:
-            print("\nEl número de clases asistidas no puede ser menor o igual a 0.")
+        elif cont_clases_asistidas <0:
+            print("\nEl número de clases asistidas no puede ser menor a 0.")
         else: 
             # Calculo de porcentaje de asistencia
             asistencia = cont_clases_asistidas * 100 // num_clases_mes
