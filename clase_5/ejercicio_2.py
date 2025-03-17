@@ -1,44 +1,15 @@
 """
-Crear un programa, que me muestre por pantalla los primeros n números, de la serie fibonacci
+Desarrollar un programa para poder determinar si un año ingresado por teclado es bisiesto, adicional el programa debe de ejecutarse mientras el usuario lo decida 
 """
+option = "s"
+while(option != "n"):
+    year = int(input("Ingrese el año que desea consultar: "))
 
-# # Función con recursiva
-# def fibonacci(n, a=0, b=1):
-#     while n!=0:
-#         print(a)
-#         return fibonacci(n-1, b, a + b)
-#     return a
+    if year % 100 != 0 and year % 4 == 0 or year % 400 == 0 :
+        print(f"El año {year} es bisiesto.")
+    else:
+        print(f"El año {year} no es bisiesto.")
+        
+    option = input("Ingrese si desea continuar usando el programa (s/n): ") 
 
-# # Función con ciclo for
-# def fibonacci_1(n):
-#     a= 0
-#     b = 1
-#     c = 0
-
-#     for i in range(n):
-#         print(a)
-#         c= a + b
-#         a = b
-#         b = c
-
-
-# n = int(input("Ingrese la cantidad de numeros de la serie fibonacci: "))
-
-# print("Función recursiva")
-# fibonacci(n)
-
-# print("Función por ciclo for: ")
-# fibonacci_1(n)
-
-n = int(input("Ingrese la cantidad de numeros de la serie fibonacci: "))
-
-a= 0
-b = 1
-c = 0
-
-for i in range(n):
-    print(a)
-    c= a + b
-    a = b
-    b = c
 
